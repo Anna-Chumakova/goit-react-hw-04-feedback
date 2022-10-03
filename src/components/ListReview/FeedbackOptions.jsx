@@ -8,7 +8,9 @@ const FeedbackOptions = ({ leaveFeedbackGood, leaveFeedbackNeutral, leaveFeedbac
         <button className={styles.button} type="button" onClick={() => {leaveFeedbackBad()}} >Bad</button>
     </div>
 ) 
-//FeedbackOptions.propTypes = {
-//    leaveFeedback: propTypes.func.isRequired
-//}
+FeedbackOptions.propTypes = {
+    leaveFeedbackGood: propTypes.func.isRequired,
+    leaveFeedbackNeutral: propTypes.func.isRequired,
+    leaveFeedbackBad: propTypes.func.isRequired,
+}
 export default FeedbackOptions;

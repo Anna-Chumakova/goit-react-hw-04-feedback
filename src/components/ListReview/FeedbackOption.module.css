@@ -1,0 +1,10 @@
+.containerOptions {
+    display: flex;
+    align-items: center;
+}
+.button {
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 3px;
+    font-size: 12px;
+}

@@ -3,7 +3,7 @@ import Section from './Section';
 import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import Notification from './Notification';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 
 export default function Feedback () {
